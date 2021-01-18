@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" />
+    </modules>
+  </component>
+</project>
