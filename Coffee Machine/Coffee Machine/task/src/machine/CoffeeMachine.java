@@ -2,24 +2,30 @@ package machine;
 
 import java.util.Scanner;
 
+
 public class CoffeeMachine {
+
+    public static void main(String[] args) {
+        OperationMachine operationMachine = new OperationMachine();
+        operationMachine.Process();
+    }
+}
+
+class OperationMachine{
     static int water = 400;
     static int milk = 540;
     static int coffeeBeans = 120;
     static int cup = 9;
     static int money = 550;
 
-    public static void main(String[] args) {
-        Process();
-    }
-    static void Process() {
+    public void Process() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("\nWrite action (buy, fill, take, remaining, exit): ");
-            String str = scanner.nextLine();
-            if(str.equals("exit"))
+            String command = scanner.nextLine();
+            if (command.equals("exit"))
                 break;
-            switch (str) {
+            switch (command) {
                 case "buy":
                     OnBuy();
                     break;
@@ -37,18 +43,16 @@ public class CoffeeMachine {
             }
         }
     }
-
-    static void OnRemaining(){
+    private void OnRemaining(){
         System.out.println(GetStatus());
     }
 
-    static void OnTake(){
+    private void OnTake(){
         System.out.println("I gave you $" + money);
         money = 0;
-        System.out.println(GetStatus());
     }
 
-    static  void OnFill(){
+    private void OnFill(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write how many ml of water do you want to add:");
         water = water + scanner.nextInt();
@@ -59,7 +63,7 @@ public class CoffeeMachine {
         System.out.println("Write how many disposable cups of coffee do you want to add:");
         cup = cup + scanner.nextInt();
     }
-    static void OnBuy() {
+    private void OnBuy() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
         String command = scanner.next();
@@ -84,7 +88,7 @@ public class CoffeeMachine {
         }
     }
 
-    static String GetStatus(){
+    private String GetStatus(){
         return "\nThe coffee machine has:\n" +
                 water + " of water\n" +
                 milk + " of milk\n" +
@@ -93,7 +97,7 @@ public class CoffeeMachine {
                 "$"+money + " of money";
     }
 
-    static int GetWater(int cup, int coffee) {
+    private int GetWater(int cup, int coffee) {
         switch (coffee) {
             case 1:
                 return 250 * cup;
@@ -105,7 +109,7 @@ public class CoffeeMachine {
         }
     }
 
-    static int GetMilk(int cup, int coffee){
+    private int GetMilk(int cup, int coffee){
         switch (coffee) {
             case 2:
                 return 75 * cup;
@@ -115,7 +119,7 @@ public class CoffeeMachine {
         }
     }
 
-    static int GetCoffeeBeans(int cup, int coffee){
+    private int GetCoffeeBeans(int cup, int coffee){
         switch (coffee) {
             case 1:
                 return 16 * cup;
@@ -127,7 +131,7 @@ public class CoffeeMachine {
         }
     }
 
-    static  int GetMoney(int cup, int coffee){
+    private int GetMoney(int cup, int coffee) {
         switch (coffee) {
             case 1:
                 return 4 * cup;
@@ -135,7 +139,8 @@ public class CoffeeMachine {
                 return 7 * cup;
             case 3:
                 return 6 * cup;
-            default: return 0;
+            default:
+                return 0;
         }
     }
 }
