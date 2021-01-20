@@ -3,7 +3,11 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/204875/additional_files.json
   is_template_based: false
   use_ide: true
+<<<<<<< Updated upstream
 update_date: Wed, 20 Jan 2021 11:31:46 UTC
+=======
+update_date: Wed, 20 Jan 2021 06:31:33 UTC
+>>>>>>> Stashed changes
 stages:
 - id: 175
   step: 5329

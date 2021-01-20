@@ -3,36 +3,19 @@ import org.hyperskill.hstest.stage.StageTest;
 import org.hyperskill.hstest.testcase.CheckResult;
 import org.hyperskill.hstest.testcase.TestCase;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
-class TestClue {
-    int water;
-    int milk;
-    int beans;
-    int cups;
-    int money;
-    String feedback;
-    TestClue(int w, int m, int b, int c, int mo, String feedback) {
-        water = w;
-        milk = m;
-        beans = b;
-        cups = c;
-        money = mo;
-        this.feedback = feedback;
-    }
-}
-
-public class CoffeeMachineTest extends StageTest<TestClue> {
+public class CoffeeMachineTest extends StageTest<String> {
 
     public CoffeeMachineTest() {
         super(CoffeeMachine.class);
     }
 
     @Override
-    public List<TestCase<TestClue>> generate() {
+    public List<TestCase<String>> generate() {
         return List.of(
+<<<<<<< Updated upstream
             new TestCase<TestClue>()
                 .setAttach(new TestClue(
                     700 - 400,
@@ -149,10 +132,22 @@ public class CoffeeMachineTest extends StageTest<TestClue> {
                         "back\n" +
                         "remaining\n" +
                         "exit\n")
+=======
+            new TestCase<String>()
+                .setInput("")
+                .setAttach("Starting to make a coffee\n" +
+                    "Grinding coffee beans\n" +
+                    "Boiling water\n" +
+                    "Mixing boiled water with crushed coffee beans\n" +
+                    "Pouring coffee into the cup\n" +
+                    "Pouring some milk into the cup\n" +
+                    "Coffee is ready!")
+>>>>>>> Stashed changes
         );
     }
 
     @Override
+<<<<<<< Updated upstream
     public CheckResult check(String reply, TestClue clue) {
         String[] lines = reply.split("\\n");
 
@@ -262,5 +257,12 @@ public class CoffeeMachineTest extends StageTest<TestClue> {
                 diffMoney == money_;
 
         return new CheckResult(isCorrect, clue.feedback);
+=======
+    public CheckResult check(String reply, String clue) {
+        boolean isCorrect = reply.trim().equals(clue.trim());
+        return new CheckResult(isCorrect,
+            "You should make coffee exactly " +
+                "like in the example");
+>>>>>>> Stashed changes
     }
 }
