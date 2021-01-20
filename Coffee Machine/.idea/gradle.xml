@@ -8,11 +8,17 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="15" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Coffee Machine/task" />
+            <option value="$PROJECT_DIR$/Problems (1)/Fill the matrix by numbers" />
+            <option value="$PROJECT_DIR$/Problems (2)/Pretty looking pattern" />
+            <option value="$PROJECT_DIR$/Problems (3)/Rotate a rectangle array" />
+            <option value="$PROJECT_DIR$/Problems (4)/Cinema" />
+            <option value="$PROJECT_DIR$/Problems (5)/Check sudoku" />
+            <option value="$PROJECT_DIR$/Problems (6)/Maximum element in a matrix" />
             <option value="$PROJECT_DIR$/Problems/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Problems/Days of week" />
             <option value="$PROJECT_DIR$/Problems/Decompose a math function" />
