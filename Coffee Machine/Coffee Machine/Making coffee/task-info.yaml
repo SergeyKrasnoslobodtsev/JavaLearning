@@ -15,7 +15,6 @@ files:
 - name: test/CoffeeMachineTest.java
   visible: false
   text: |
-    import machine.CoffeeMachine;
     import org.hyperskill.hstest.stage.StageTest;
     import org.hyperskill.hstest.testcase.CheckResult;
     import org.hyperskill.hstest.testcase.TestCase;
@@ -24,10 +23,6 @@ files:
 
 
     public class CoffeeMachineTest extends StageTest<String> {
-
-        public CoffeeMachineTest() {
-            super(CoffeeMachine.class);
-        }
 
         @Override
         public List<TestCase<String>> generate() {
